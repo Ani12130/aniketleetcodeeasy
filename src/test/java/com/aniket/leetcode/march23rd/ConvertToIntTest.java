@@ -15,5 +15,8 @@ public class ConvertToIntTest {
     @Test
     public void testConvertToInt() {
         assertEquals(3,ConvertToInt.romanToInt("III"));
+        assertEquals(58,ConvertToInt.romanToInt("LVIII"));
+        assertEquals(1994,ConvertToInt.romanToInt("MCMXCIV"));
+        assertEquals(4,ConvertToInt.romanToInt("IV"));
     }
 }

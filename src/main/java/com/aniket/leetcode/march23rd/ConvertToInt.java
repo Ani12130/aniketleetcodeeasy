@@ -6,6 +6,8 @@ import java.util.Map;
 public class ConvertToInt {
     public static void main(String[] args) {
         System.out.println("Converted Roman Number to Int" + " " + romanToInt("III"));
+        System.out.println("Converted Roman Number to Int" + " " + romanToInt("LVIII"));
+        System.out.println("Converted Roman Number to Int" + " " + romanToInt("MCMXCIV"));
 
     }
 
