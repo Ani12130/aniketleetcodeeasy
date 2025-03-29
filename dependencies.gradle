@@ -1,0 +1,13 @@
+ext {
+    slf4jVersion = '1.7.36' // Check for the latest version
+    logbackVersion = '1.2.6' // Check for the latest version
+}
+
+dependencies {
+    implementation ("org.slf4j:slf4j-api:$slf4jVersion")
+    implementation ("ch.qos.logback:logback-classic:$logbackVersion")
+        testImplementation platform('org.junit:junit-bom:5.9.1')
+        testImplementation ('org.junit.jupiter:junit-jupiter')
+        testImplementation ('junit:junit:4.13.1')
+
+}
