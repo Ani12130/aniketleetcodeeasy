@@ -1,7 +1,7 @@
 package com.aniket.leetcode.may04;
 
 public class LengthOfLast {
-    public static int lengthOfLastWord(String s) {
+    public int lengthOfLastWord(String s) {
         int len = 0;
 
         s = s.strip();
@@ -15,8 +15,8 @@ public class LengthOfLast {
 
     public static void main(String[] args) {
         LengthOfLast sl = new LengthOfLast();
-        System.out.println("Length of last word" + ":"+ LengthOfLast.lengthOfLastWord("Hello World"));
-        System.out.println("Length of last word" + ":"+LengthOfLast.lengthOfLastWord("   fly me   to   the moon  "));
-        System.out.println("Length of last word" + ":"+ LengthOfLast.lengthOfLastWord( "luffy is still joyboy"));
+        System.out.println("Length of last word" + ":"+ sl.lengthOfLastWord("Hello World"));
+        System.out.println("Length of last word" + ":"+sl.lengthOfLastWord("   fly me   to   the moon  "));
+        System.out.println("Length of last word" + ":"+ sl.lengthOfLastWord( "luffy is still joyboy"));
     }
 }
